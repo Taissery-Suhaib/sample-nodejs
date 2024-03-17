@@ -13,5 +13,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Add PM2 to PATH
+        run: echo "/home/ubuntu/.nvm/versions/node/v20.11.1/bin" >> $GITHUB_PATH
+
       - name: Start Node.js server with PM2
-        run: /home/ubuntu/.nvm/versions/node/v20.11.1/bin/pm2 start node.js
+        run: pm2 start node.js
