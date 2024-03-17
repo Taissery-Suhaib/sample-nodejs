@@ -4,7 +4,8 @@
   "description": "A simple Node.js HTTP server",
   "main": "node.js",
   "scripts": {
-    "start": "node.js"
+    "start": "node hello.js",
+    "build": "echo 'No build step needed for this application'"
   },
   "author": "Your Name",
   "license": "MIT",
