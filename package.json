@@ -2,7 +2,7 @@
   "name": "your-app-name",
   "version": "1.0.0",
   "description": "A simple Node.js HTTP server",
-  "main": "hello.js",
+  "main": "node.js",
   "scripts": {
     "start": "node hello.js"
   },
